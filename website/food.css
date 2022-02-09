@@ -36,7 +36,7 @@
 #navbar::before{
     content: "";
 
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     position: absolute;
     top: 0px;
     left: 0px;
@@ -60,7 +60,7 @@
     
 } 
 #navbar ul li a:hover{
-    background-color: blue;
+    background-color: rgb(110, 173, 7);
 }
 
 
@@ -115,10 +115,10 @@
     display: flex;
 }
 #services .box{
-  border: 12px solid rgb(223, 39, 39);
+  border: 12px solid rgb(148, 20, 131);
   padding: 37px;
   margin: 3px 13px;
-  background: rgb(235, 221, 196);
+  background: rgb(214, 196, 235);
   border-radius: 68px;
 
 }
@@ -132,7 +132,7 @@
   /* Client section */
 #client-section{
       /* height: 344px; */
-      background: url('back2.jpg');
+      background: url('images\ \(2\).jpg');
       height: 328px;
       width: 100%;
   }
@@ -159,7 +159,7 @@
   }
   #contact{
       
-    background: url('Mukull.jpg');
+    background: url('images\ \(1\).jpg');
     height: 100%;
     width: 100%;
     
@@ -191,7 +191,7 @@
 }
 #contact-box label{
     font-size: 1.3rem;
-    color:salmon;
+    color:rgb(35, 196, 75);
     
 }
 
@@ -204,7 +204,7 @@ button{
     background-color: sandybrown;
 }
 button:hover{
-    color: rgb(49, 36, 109);
+    color: rgb(50, 12, 219);
     cursor: pointer;
 }
 footer{
